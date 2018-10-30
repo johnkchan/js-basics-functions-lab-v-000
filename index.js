@@ -14,12 +14,12 @@ function distanceTravelledInFeet(start, end){
   return Math.abs(start - end) * 264;
 }
 
-function calculatesFarePrice(distance){
-  if (distanceTravelledInFeet(distance) < 400){
+function calculatesFarePrice(start, end){
+  if (distanceTravelledInFeet(start, end) < 400){
     return 0;
-  } else if (distanceTravelledInFeet(distance) >= 400 && distanceTravelledInFeet(distance) <= 2000){
-    return (distanceTravelledInFeet - 400) * .02;
-  } else if (distanceTravelledInFeet(distance) > 2000 && distanceTravelledInFeet(distance) < 2500){
+  } else if (distanceTravelledInFeet(start, end) >= 400 && distanceTravelledInFeet(start, end) <= 2000){
+    return (distanceTravelledInFeet(start, end) - 400) * .02;
+  } else if (distanceTravelledInFeet(start, end) > 2000 && distanceTravelledInFeet(start, end) < 2500){
     return 25;
   } else {
     return 'cannot travel that far';
