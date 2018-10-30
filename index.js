@@ -19,7 +19,9 @@ function calculatesFarePrice(distance){
     return 0;
   } else if (distanceTravelledInFeet(distance) >= 400 && distanceTravelledInFeet(distance) <= 2000){
     return (distanceTravelledInFeet - 400) * .02;
-  } else if (distanceTravelledInFeet(distance) >= 400 && distanceTravelledInFeet(distance) <= 2000){
-    
+  } else if (distanceTravelledInFeet(distance) > 2000 && distanceTravelledInFeet(distance) < 2500){
+    return 25;
+  } else {
+    return 'cannot travel that far';
   }
 }
