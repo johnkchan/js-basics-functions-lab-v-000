@@ -7,7 +7,7 @@ function distanceFromHqInBlocks(distance){
 }
 
 function distanceFromHqInFeet(distance){
-  return distanceFromHqInBlocks(distance) * 1320;
+  return distanceFromHqInBlocks(distance) * 264;
 }
 
 function distanceTravelledInFeet(){
