@@ -7,10 +7,10 @@ function distanceFromHqInFeet(){
   
 }
 
-function distanceFromHqInBlocks (){
+function distanceTravelledInFeet(){
   
 }
 
-function distanceFromHqInBlocks(){
+function calculatesFarePrice(){
   
 }
