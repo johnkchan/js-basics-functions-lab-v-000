@@ -10,10 +10,10 @@ function distanceFromHqInFeet(distance){
   return distanceFromHqInBlocks(distance) * 264;
 }
 
-function distanceTravelledInFeet(){
+function distanceTravelledInFeet(distance){
   
 }
 
-function calculatesFarePrice(){
+function calculatesFarePrice(distance){
   
 }
