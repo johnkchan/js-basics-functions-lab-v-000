@@ -2,3 +2,15 @@
 function distanceFromHqInBlocks(){
   
 }
+
+function distanceFromHqInBlocks(){
+  
+}
+
+function distanceFromHqInBlocks(){
+  
+}
+
+function distanceFromHqInBlocks(){
+  
+}
